@@ -15,5 +15,6 @@ fn get_dir(direction:Direction)-> &'static str{
 }
 fn main() {
     let direction=Direction::South;
-    println!("Direction :{}",get_dir(direction)); 
+    println!("Direction :{}",get_dir(direction));
+ 
 }
